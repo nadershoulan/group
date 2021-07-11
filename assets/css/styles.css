@@ -1,9 +1,19 @@
+.owl-item :hover {
+  color: blue;
+  background-color: #91919130;
+  border-radius: 20px 20px;
+  margin: 0.111px;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
   text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+.nav-link.active.text-light {
 }
 
 body {
@@ -13,8 +23,19 @@ body {
   color: #ffffff;
 }
 
+@media (min-width: 300px) {
+  div {
+    height: initial;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
 div {
-  display: block;
+  /*display: block;*/
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -31,6 +52,7 @@ div {
 }
 
 .bbb_viewed_title_container {
+  font-family: Cairo, sans-serif;
   border-bottom: solid 1px #dadada;
 }
 
@@ -127,6 +149,7 @@ div {
 }
 
 .bbb_viewed_name {
+  font-family: 'Tajawal';
   margin-top: 3px;
 }
 
@@ -177,5 +200,43 @@ div {
 
 .bbb_viewed_item.is_new .item_new {
   display: inline-block;
+}
+
+.bg_color {
+  color: #606264;
+}
+
+.btn-group-sm .btn-fab {
+  position: fixed !important;
+  right: 29px;
+}
+
+.btn-group .btn-fab {
+  position: fixed !important;
+  right: 20px;
+}
+
+#main {
+  bottom: 20px;
+}
+
+#mail {
+  bottom: 80px;
+}
+
+#sms {
+  bottom: 125px;
+}
+
+#autre {
+  bottom: 170px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1;
 }
 
