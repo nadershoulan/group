@@ -1,44 +1,50 @@
-$(document).ready(function() {
+ $(document).ready(function()
+{
 
 
-    if ($('.bbb_viewed_slider').length) {
-        var viewedSlider = $('.bbb_viewed_slider');
+if($('.bbb_viewed_slider').length)
+{
+var viewedSlider = $('.bbb_viewed_slider');
 
-        viewedSlider.owlCarousel({
-            loop: true,
-            margin: 30,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            nav: false,
-            dots: false,
-            responsive: {
-                0: { items: 1 },
-                575: { items: 2 },
-                768: { items: 3 },
-                991: { items: 4 },
-                1199: { items: 6 }
-            }
-        });
+viewedSlider.owlCarousel(
+{
+loop:true,
+margin:30,
+autoplay:true,
+autoplayTimeout:6000,
+nav:false,
+dots:false,
+responsive:
+{
+0:{items:1},
+575:{items:2},
+768:{items:3},
+991:{items:4},
+1199:{items:6}
+}
+});
 
-        if ($('.bbb_viewed_prev').length) {
-            var prev = $('.bbb_viewed_prev');
-            prev.on('click', function() {
-                viewedSlider.trigger('prev.owl.carousel');
-            });
-        }
+if($('.bbb_viewed_prev').length)
+{
+var prev = $('.bbb_viewed_prev');
+prev.on('click', function()
+{
+viewedSlider.trigger('prev.owl.carousel');
+});
+}
 
-        if ($('.bbb_viewed_next').length) {
-            var next = $('.bbb_viewed_next');
-            next.on('click', function() {
-                viewedSlider.trigger('next.owl.carousel');
-            });
-        }
-    }
+if($('.bbb_viewed_next').length)
+{
+var next = $('.bbb_viewed_next');
+next.on('click', function()
+{
+viewedSlider.trigger('next.owl.carousel');
+});
+}
+}
 
 
 });
-
-
 /////////////////
 
 //Get the button
@@ -88,7 +94,7 @@ function backToTop() {
     });
 ////end of the script 
 
-////// this a scroll down btn script v2
+////// this a scroll down btn script v3
 
   $(document).ready(function() {
         $(".vision").click(function() {
@@ -98,7 +104,7 @@ function backToTop() {
         });
     });
 ////end of the script 
-////// this a scroll down btn script v2
+////// this a scroll down btn script v4
 
   $(document).ready(function() {
         $(".messaage").click(function() {
@@ -108,7 +114,7 @@ function backToTop() {
         });
     });
 ////end of the script 
-////// this a scroll down btn script v2
+////// this a scroll down btn script v5
 
   $(document).ready(function() {
         $(".goal").click(function() {
@@ -118,7 +124,7 @@ function backToTop() {
         });
     });
 ////end of the script 
-////// this a scroll down btn script v2
+////// this a scroll down btn script v6
 
   $(document).ready(function() {
         $(".goal").click(function() {
@@ -128,3 +134,14 @@ function backToTop() {
         });
     });
 ////end of the script 
+
+/////////  show and hide script 
+ 
+//////////////////////
+ 
+
+
+
+
+
+

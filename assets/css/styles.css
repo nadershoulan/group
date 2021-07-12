@@ -1,8 +1,8 @@
 .owl-item :hover {
-  color: blue;
-  background-color: #91919130;
-  border-radius: 20px 20px;
-  margin: 0.111px;
+  /*color: blue;*/
+  /*background-color: #91919130;*/
+  /*border-radius: 20px 20px;*/
+  /*margin: 0.111px;*/
 }
 
 * {
@@ -48,7 +48,7 @@ div {
 }
 
 .bbb_main_container {
-  padding: 11px;
+  /*padding: 11px;*/
 }
 
 .bbb_viewed_title_container {
@@ -88,7 +88,7 @@ div {
 }
 
 .bbb_viewed_prev {
-  margin-right: 15px;
+  /*margin-right: 15px;*/
 }
 
 .bbb_viewed_slider_container {
@@ -100,8 +100,8 @@ div {
   border-radius: 2px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /*padding-left: 30px;*/
+  /*padding-right: 30px;*/
 }
 
 .bbb_viewed_image {
@@ -134,7 +134,7 @@ div {
   font-size: 12px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.6);
-  margin-left: 8px;
+  /*margin-left: 8px;*/
 }
 
 .bbb_viewed_price span::after {
@@ -187,7 +187,7 @@ div {
 
 .item_discount {
   background: #df3b3b;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
 }
 
 .item_new {
@@ -238,5 +238,40 @@ div {
   right: 20px;
   display: none;
   z-index: 1;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  position: relative;
+}
+
+.text-center.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
 }
 
