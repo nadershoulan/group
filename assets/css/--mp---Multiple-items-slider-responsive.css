@@ -318,3 +318,10 @@ a {
   color: white;
 }
 
+.text-right.hover-5-content {
+  top: 390px;
+  bottom: -410px;
+  background-color: rgba(0,0,0,0.51);
+  padding: 5px;
+}
+
