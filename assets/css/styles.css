@@ -275,3 +275,10 @@ div {
   color: red;
 }
 
+.brhover :hover {
+  border-radius: 3px 3px;
+  /*margin: 0px 2px;*/
+  color: black;
+  background: white;
+}
+
